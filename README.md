@@ -10,7 +10,7 @@
 6. `make test` - Тестирование проекта.
 
 Для запуска тестов необходимо создать виртуальное окружение \
-активировать его и установить зависимости, ТОЛЬКО после этого \
+активировать его и установить зависимости, **_ТОЛЬКО_** после этого \
 выполнять команду `make test`.
 
 # Начало работы.
@@ -51,8 +51,8 @@ curl -X 'POST' \
   -H 'accept: application/json' \
   -H 'Content-Type: application/json' \
   -d '{
-  "username": "Soullurus1",
-  "password": "Soullurus1"
+  "username": "SuperUserName",
+  "password": "SuperSecretPassword"
 }'
 ```
 
@@ -121,5 +121,16 @@ curl -X 'GET' \
   'http://localhost:8000/api/v1/wallets/fdf607d9-ddec-4e37-8a81-ec8a8053bb41/details' \
   -H 'accept: application/json'
 ```
+
+Технологический стэк:
+1. Python 3.12
+2. FastAPI
+3. PostgreSQL
+4. Pydantic
+5. SQLAlchemy
+6. Docker
+7. Docker-compose
+8. Grafana + Prometheus
+9. Flake-8
 
 **Надеюсь Вам понравится моя работа и Вы получите удовольствие от ее использования, как я, когда ее писал :)**
